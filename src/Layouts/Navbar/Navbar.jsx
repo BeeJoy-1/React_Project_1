@@ -13,12 +13,12 @@ const Navbar = () => {
               <img src={Logo} alt="" />
             </div>
             <div className='flex item-center gap-x-[32px] w-[60%] justify-end'>
-              <Link to="/" className='text-[#BBBBCB] font-medium' href="">Home</Link>
-              <Link to="/About" className='text-[#BBBBCB] font-medium' href="">About Us</Link>
-              <Link to="/Features" className='text-[#BBBBCB] font-medium' href="">Features</Link>
-              <Link to="/Pricing" className='text-[#BBBBCB] font-medium' href="">Pricing</Link>
-              <Link to="/FAQ" className='text-[#BBBBCB] font-medium' href="">FAQ</Link>
-              <Link to="/Blog" className='text-[#BBBBCB] font-medium' href="">Blog</Link>
+              <Link to="/" className='text-[#BBBBCB] font-medium hover:text-[#fff] transition-all duration-200' href="">Home</Link>
+              <Link to="/About" className='text-[#BBBBCB] font-medium hover:text-[#fff] transition-all duration-200' href="">About Us</Link>
+              <Link to="/Features" className='text-[#BBBBCB] font-medium hover:text-[#fff] transition-all duration-200' href="">Features</Link>
+              <Link to="/Pricing" className='text-[#BBBBCB] font-medium hover:text-[#fff] transition-all duration-200' href="">Pricing</Link>
+              <Link to="/FAQ" className='text-[#BBBBCB] font-medium hover:text-[#fff] transition-all duration-200' href="">FAQ</Link>
+              <Link to="/Blog" className='text-[#BBBBCB] font-medium hover:text-[#fff] transition-all duration-200' href="">Blog</Link>
             </div>
             <div className='w-[20%] flex items-center justify-end'>
               <button className='py-[16px] px-[48px] border-[1px] rounded-[41px] text-white font-medium'>Contact Us</button>

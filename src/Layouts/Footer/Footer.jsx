@@ -48,12 +48,12 @@ const Footer = () => {
                   <h2 className='text-[#282938] font-medium'>Copyright 2022, Finsweet.com</h2>
                 </div>
                 <div className='flex item-center gap-x-[32px] w-[80%] justify-end'>
-                  <Link to="/" className='text-[#282938] font-medium'>Home</Link>
-                  <Link to="/About" className='text-[#282938] font-medium'>About Us</Link>
-                  <Link to="/Features" className='text-[#282938] font-medium'>Features</Link>
-                  <Link to="/Pricing" className='text-[#282938] font-medium'>Pricing</Link>
-                  <Link to="/FAQ" className='text-[#282938] font-medium'>FAQ</Link>
-                  <Link to="/Blog" className='text-[#282938] font-medium'>Blog</Link>
+                  <Link to="/" className='text-[#282938] font-medium hover:text-[#000] transition-all duration-200'>Home</Link>
+                  <Link to="/About" className='text-[#282938] font-medium hover:text-[#000] transition-all duration-200'>About Us</Link>
+                  <Link to="/Features" className='text-[#282938] font-medium hover:text-[#000] transition-all duration-200'>Features</Link>
+                  <Link to="/Pricing" className='text-[#282938] font-medium hover:text-[#000] transition-all duration-200'>Pricing</Link>
+                  <Link to="/FAQ" className='text-[#282938] font-medium hover:text-[#000] transition-all duration-200'>FAQ</Link>
+                  <Link to="/Blog" className='text-[#282938] font-medium hover:text-[#000] transition-all duration-200'>Blog</Link>
                 </div>
               </div>
             </div>
