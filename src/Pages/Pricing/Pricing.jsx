@@ -12,7 +12,7 @@ const Pricing = () => {
               <h2 className='text-[40px] font-bold text-center pb-[16px]'>Our Pricing Plans</h2>
               <p className='w-[481px] mx-auto'>When you’re ready to go beyond prototyping in Figma, Webflow is ready to help you bring your designs to life — without coding them.</p>
               <div className='flex justify-between items-center'>
-                <div className='pt-[64px] group'>
+                <div className='pt-[64px] group cursor-pointer'>
                   <div className='w-[405px] py-[64px] pl-[48px] pr-[50px] bg-[#F4F6FC] rounded-[12px] group-hover:bg-[#1C1E53] transition-all delay-0'>
                     <div className='flex gap-x-[10px] items-center pb-[20px]'>
                       <span className='text-[35px] font-bold text-[#282938] group-hover:text-white transition-all delay-0'>$299</span>
@@ -47,7 +47,7 @@ const Pricing = () => {
                     </div>
                   </div>
                 </div>
-                <div className='pt-[64px] group'>
+                <div className='pt-[64px] group cursor-pointer'>
                   <div className='w-[405px] py-[64px] pl-[48px] pr-[50px] bg-[#F4F6FC] rounded-[12px] group-hover:bg-[#1C1E53] transition-all delay-0'>
                     <div className='flex gap-x-[10px] items-center pb-[20px]'>
                       <span className='text-[35px] font-bold text-[#282938] group-hover:text-white transition-all delay-0'>$299</span>
@@ -82,7 +82,7 @@ const Pricing = () => {
                     </div>
                   </div>
                 </div>
-                <div className='pt-[64px] group'>
+                <div className='pt-[64px] group cursor-pointer'>
                   <div className='w-[405px] py-[64px] pl-[48px] pr-[50px] bg-[#F4F6FC] rounded-[12px] group-hover:bg-[#1C1E53] transition-all delay-0'>
                     <div className='flex gap-x-[10px] items-center pb-[20px]'>
                       <span className='text-[35px] font-bold text-[#282938] group-hover:text-white transition-all delay-0'>$499+</span>
